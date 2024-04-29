@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPB_Pricing", "PPB_Pricing\PPB_Pricing.csproj", "{ECFE0ED3-897B-4B49-B903-1DF56B30B16B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECFE0ED3-897B-4B49-B903-1DF56B30B16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFE0ED3-897B-4B49-B903-1DF56B30B16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFE0ED3-897B-4B49-B903-1DF56B30B16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFE0ED3-897B-4B49-B903-1DF56B30B16B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
