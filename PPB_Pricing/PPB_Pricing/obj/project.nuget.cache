@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PZIanODxszxJuxhY8V81xx2TFFCmXTvfL3BgcNcs2s4s4F96kkwOI++mLbgrtd6Q0RagsLlyHzT6DI5/99dDNA==",
+  "dgSpecHash": "6N/+tkR6JPgHi3zBUa09jWGwemJTHqpGEYP2JGrRfCoHVJnp/ySZ/B+qfAnPl3du9Wy6k5bjk9Q04MpQGFJTtQ==",
   "success": true,
   "projectFilePath": "/Users/Amrita.Bindukalpa/PPB_Pricing_Exercise/PPB_Pricing/PPB_Pricing/PPB_Pricing.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/Amrita.Bindukalpa/.nuget/packages/csvhelper/32.0.0/csvhelper.32.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
