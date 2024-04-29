@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PPB_Pricing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+883322b0d2cd29bdeb25e4e52d63b7fc0d3972ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("PPB_Pricing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PPB_Pricing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
