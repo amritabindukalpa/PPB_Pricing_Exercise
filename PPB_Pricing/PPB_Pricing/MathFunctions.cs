@@ -22,6 +22,6 @@ public static class MathFunctions
 
     public static double CalculateProobability(double mean, double sd, double median)
     {
-        return  Normal.CDF(mean, sd, median);
+        return  Math.Round( Normal.CDF(mean, sd, median),2);
     }
 }
