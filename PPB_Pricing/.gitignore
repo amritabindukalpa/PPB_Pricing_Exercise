@@ -1,0 +1,10 @@
+/.idea
+*.user
+/.DS_Store
+
+**/[Bb]in
+**/[Oo]bj
+
+
+
+

@@ -4,7 +4,9 @@ using System.Globalization;
 using CsvHelper;
 using PPB_Pricing;
 
-var count = new Data().ReadData("/Users/Amrita.Bindukalpa/Downloads/GameResults.csv").Count();
 
 
-Console.WriteLine($"Total Matches Played: {count}");
+var stats = new Stats("/Users/Amrita.Bindukalpa/Downloads/GameResults.csv");
+Console.WriteLine($"Total Matches Played: {stats.HomeTeamWins}");
+Console.WriteLine($"Home team win probability: {(double)stats.HomeTeamWins/stats.TotalMatchesPlayed*100 }");
+Console.WriteLine($"Away team win probability: {(double)stats.AwayTeamWins/stats.TotalMatchesPlayed *100}");
