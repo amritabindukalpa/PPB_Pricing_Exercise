@@ -6,7 +6,7 @@ using PPB_Pricing;
 
 
 
-var data = new Data();
-Console.WriteLine($"Total Matches Played: {data.TotalMatchesPlayed}");
-Console.WriteLine($"Home team win probability: {data.HomeTeamWins/data.TotalMatchesPlayed*100 }");
-Console.WriteLine($"Away team win probability: {data.AwayTeamWins/data.TotalMatchesPlayed *100}");
+var stats = new Stats("/Users/Amrita.Bindukalpa/Downloads/GameResults.csv");
+Console.WriteLine($"Total Matches Played: {stats.HomeTeamWins}");
+Console.WriteLine($"Home team win probability: {(double)stats.HomeTeamWins/stats.TotalMatchesPlayed*100 }");
+Console.WriteLine($"Away team win probability: {(double)stats.AwayTeamWins/stats.TotalMatchesPlayed *100}");
